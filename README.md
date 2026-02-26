@@ -44,7 +44,9 @@ Para ello, ejecute el script `agent.py` de la siguiente manera:
 ```bash
 python agent.py
 ```
-A continuación, iniciará una sesión de chat directamente en su terminal, donde el sistema interactuará con usted para solicitarle los datos (nombre, edad y objetivo) hasta imprimir el resumen en formato JSON.
+A continuación, iniciará una sesión de chat directamente en su terminal, como se muestra en la siguiente imagen, donde el sistema interactuará con usted para solicitarle los datos (nombre, edad y objetivo) hasta imprimir el resumen en formato JSON.
+
+<img width="978" height="369" alt="image" src="https://github.com/user-attachments/assets/393017da-5f7c-4c3e-9752-d3c729fe8e7d" />
 
 ---
 
@@ -244,7 +246,7 @@ curl.exe -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" 
 }
 ```
 
-## Evidencia de ejecución del agente
+## Evidencia de ejecución del agente con la API
 **Interacción del Usuario 1**
 <img width="956" height="293" alt="image" src="https://github.com/user-attachments/assets/e08a3c75-9958-49e0-950c-4138d69e3b25" />
 
