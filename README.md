@@ -36,7 +36,19 @@ Renombre el archivo `.env.example` a `.env` y agregue su API Key de OpenAI:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-## Ejecución del Servidor
+## Prueba del Agente de forma Independiente (Sin API)
+
+El agente de LangChain puede ser ejecutado y testeado directamente desde la terminal del sistema (CLI) de forma aislada, sin necesidad de levantar el servidor web de FastAPI.
+
+Para ello, ejecute el script `agent.py` de la siguiente manera:
+```bash
+python agent.py
+```
+A continuación, iniciará una sesión de chat directamente en su terminal, donde el sistema interactuará con usted para solicitarle los datos (nombre, edad y objetivo) hasta imprimir el resumen en formato JSON.
+
+---
+
+## Ejecución del Servidor (API)
 
 Levante el servidor FastAPI ejecutando el siguiente comando al nivel de la carpeta del proyecto:
 ```bash
