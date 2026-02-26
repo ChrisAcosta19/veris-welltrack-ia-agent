@@ -243,3 +243,10 @@ curl.exe -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" 
   }
 }
 ```
+
+## Evidencia de ejecución del agente
+**Interacción del Usuario 1**
+<img width="956" height="293" alt="image" src="https://github.com/user-attachments/assets/e08a3c75-9958-49e0-950c-4138d69e3b25" />
+
+**Interacción del Usuario 2**
+<img width="942" height="296" alt="image" src="https://github.com/user-attachments/assets/0e53aa1d-1814-49c3-bd38-cf216d961065" />
